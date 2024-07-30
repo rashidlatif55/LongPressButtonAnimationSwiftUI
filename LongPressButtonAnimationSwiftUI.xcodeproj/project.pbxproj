@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98F32A5A2C57BB4B007444C6 /* LongPressButtonAnimationSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F32A592C57BB4B007444C6 /* LongPressButtonAnimationSwiftUIApp.swift */; };
+		98F32A5C2C57BB4B007444C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F32A5B2C57BB4B007444C6 /* ContentView.swift */; };
+		98F32A5E2C57BB4D007444C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F32A5D2C57BB4D007444C6 /* Assets.xcassets */; };
+		98F32A612C57BB4D007444C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F32A602C57BB4D007444C6 /* Preview Assets.xcassets */; };
+		98F32A632C57BB4D007444C6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F32A622C57BB4D007444C6 /* Persistence.swift */; };
+		98F32A662C57BB4D007444C6 /* LongPressButtonAnimationSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98F32A642C57BB4D007444C6 /* LongPressButtonAnimationSwiftUI.xcdatamodeld */; };
+		98F32A702C57BB4D007444C6 /* LongPressButtonAnimationSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F32A6F2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUITests.swift */; };
+		98F32A7A2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F32A792C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITests.swift */; };
+		98F32A7C2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F32A7B2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITestsLaunchTests.swift */; };
+		98F32A892C57BB8E007444C6 /* LongPressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F32A882C57BB8E007444C6 /* LongPressButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98F32A6C2C57BB4D007444C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F32A4E2C57BB4B007444C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F32A552C57BB4B007444C6;
+			remoteInfo = LongPressButtonAnimationSwiftUI;
+		};
+		98F32A762C57BB4D007444C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F32A4E2C57BB4B007444C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F32A552C57BB4B007444C6;
+			remoteInfo = LongPressButtonAnimationSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98F32A562C57BB4B007444C6 /* LongPressButtonAnimationSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressButtonAnimationSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F32A592C57BB4B007444C6 /* LongPressButtonAnimationSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButtonAnimationSwiftUIApp.swift; sourceTree = "<group>"; };
+		98F32A5B2C57BB4B007444C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98F32A5D2C57BB4D007444C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98F32A602C57BB4D007444C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98F32A622C57BB4D007444C6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		98F32A652C57BB4D007444C6 /* LongPressButtonAnimationSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LongPressButtonAnimationSwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		98F32A6B2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressButtonAnimationSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F32A6F2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButtonAnimationSwiftUITests.swift; sourceTree = "<group>"; };
+		98F32A752C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressButtonAnimationSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F32A792C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButtonAnimationSwiftUIUITests.swift; sourceTree = "<group>"; };
+		98F32A7B2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButtonAnimationSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98F32A882C57BB8E007444C6 /* LongPressButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98F32A532C57BB4B007444C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F32A682C57BB4D007444C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F32A722C57BB4D007444C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98F32A4D2C57BB4B007444C6 = {
+			isa = PBXGroup;
+			children = (
+				98F32A582C57BB4B007444C6 /* LongPressButtonAnimationSwiftUI */,
+				98F32A6E2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUITests */,
+				98F32A782C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITests */,
+				98F32A572C57BB4B007444C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98F32A572C57BB4B007444C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98F32A562C57BB4B007444C6 /* LongPressButtonAnimationSwiftUI.app */,
+				98F32A6B2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUITests.xctest */,
+				98F32A752C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98F32A582C57BB4B007444C6 /* LongPressButtonAnimationSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				98F32A882C57BB8E007444C6 /* LongPressButton.swift */,
+				98F32A592C57BB4B007444C6 /* LongPressButtonAnimationSwiftUIApp.swift */,
+				98F32A5B2C57BB4B007444C6 /* ContentView.swift */,
+				98F32A5D2C57BB4D007444C6 /* Assets.xcassets */,
+				98F32A622C57BB4D007444C6 /* Persistence.swift */,
+				98F32A642C57BB4D007444C6 /* LongPressButtonAnimationSwiftUI.xcdatamodeld */,
+				98F32A5F2C57BB4D007444C6 /* Preview Content */,
+			);
+			path = LongPressButtonAnimationSwiftUI;
+			sourceTree = "<group>";
+		};
+		98F32A5F2C57BB4D007444C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98F32A602C57BB4D007444C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98F32A6E2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98F32A6F2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUITests.swift */,
+			);
+			path = LongPressButtonAnimationSwiftUITests;
+			sourceTree = "<group>";
+		};
+		98F32A782C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98F32A792C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITests.swift */,
+				98F32A7B2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = LongPressButtonAnimationSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98F32A552C57BB4B007444C6 /* LongPressButtonAnimationSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F32A7F2C57BB4D007444C6 /* Build configuration list for PBXNativeTarget "LongPressButtonAnimationSwiftUI" */;
+			buildPhases = (
+				98F32A522C57BB4B007444C6 /* Sources */,
+				98F32A532C57BB4B007444C6 /* Frameworks */,
+				98F32A542C57BB4B007444C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongPressButtonAnimationSwiftUI;
+			productName = LongPressButtonAnimationSwiftUI;
+			productReference = 98F32A562C57BB4B007444C6 /* LongPressButtonAnimationSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98F32A6A2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F32A822C57BB4D007444C6 /* Build configuration list for PBXNativeTarget "LongPressButtonAnimationSwiftUITests" */;
+			buildPhases = (
+				98F32A672C57BB4D007444C6 /* Sources */,
+				98F32A682C57BB4D007444C6 /* Frameworks */,
+				98F32A692C57BB4D007444C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F32A6D2C57BB4D007444C6 /* PBXTargetDependency */,
+			);
+			name = LongPressButtonAnimationSwiftUITests;
+			productName = LongPressButtonAnimationSwiftUITests;
+			productReference = 98F32A6B2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98F32A742C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F32A852C57BB4D007444C6 /* Build configuration list for PBXNativeTarget "LongPressButtonAnimationSwiftUIUITests" */;
+			buildPhases = (
+				98F32A712C57BB4D007444C6 /* Sources */,
+				98F32A722C57BB4D007444C6 /* Frameworks */,
+				98F32A732C57BB4D007444C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F32A772C57BB4D007444C6 /* PBXTargetDependency */,
+			);
+			name = LongPressButtonAnimationSwiftUIUITests;
+			productName = LongPressButtonAnimationSwiftUIUITests;
+			productReference = 98F32A752C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F32A4E2C57BB4B007444C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					98F32A552C57BB4B007444C6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					98F32A6A2C57BB4D007444C6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 98F32A552C57BB4B007444C6;
+					};
+					98F32A742C57BB4D007444C6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 98F32A552C57BB4B007444C6;
+					};
+				};
+			};
+			buildConfigurationList = 98F32A512C57BB4B007444C6 /* Build configuration list for PBXProject "LongPressButtonAnimationSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98F32A4D2C57BB4B007444C6;
+			productRefGroup = 98F32A572C57BB4B007444C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98F32A552C57BB4B007444C6 /* LongPressButtonAnimationSwiftUI */,
+				98F32A6A2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUITests */,
+				98F32A742C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98F32A542C57BB4B007444C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F32A612C57BB4D007444C6 /* Preview Assets.xcassets in Resources */,
+				98F32A5E2C57BB4D007444C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F32A692C57BB4D007444C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F32A732C57BB4D007444C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98F32A522C57BB4B007444C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F32A662C57BB4D007444C6 /* LongPressButtonAnimationSwiftUI.xcdatamodeld in Sources */,
+				98F32A892C57BB8E007444C6 /* LongPressButton.swift in Sources */,
+				98F32A632C57BB4D007444C6 /* Persistence.swift in Sources */,
+				98F32A5C2C57BB4B007444C6 /* ContentView.swift in Sources */,
+				98F32A5A2C57BB4B007444C6 /* LongPressButtonAnimationSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F32A672C57BB4D007444C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F32A702C57BB4D007444C6 /* LongPressButtonAnimationSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F32A712C57BB4D007444C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F32A7A2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITests.swift in Sources */,
+				98F32A7C2C57BB4D007444C6 /* LongPressButtonAnimationSwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98F32A6D2C57BB4D007444C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F32A552C57BB4B007444C6 /* LongPressButtonAnimationSwiftUI */;
+			targetProxy = 98F32A6C2C57BB4D007444C6 /* PBXContainerItemProxy */;
+		};
+		98F32A772C57BB4D007444C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98F32A552C57BB4B007444C6 /* LongPressButtonAnimationSwiftUI */;
+			targetProxy = 98F32A762C57BB4D007444C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98F32A7D2C57BB4D007444C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98F32A7E2C57BB4D007444C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98F32A802C57BB4D007444C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LongPressButtonAnimationSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = SF2PJAGCR3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LongPressButtonAnimationSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98F32A812C57BB4D007444C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LongPressButtonAnimationSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = SF2PJAGCR3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LongPressButtonAnimationSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98F32A832C57BB4D007444C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF2PJAGCR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LongPressButtonAnimationSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongPressButtonAnimationSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LongPressButtonAnimationSwiftUI";
+			};
+			name = Debug;
+		};
+		98F32A842C57BB4D007444C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF2PJAGCR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LongPressButtonAnimationSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongPressButtonAnimationSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LongPressButtonAnimationSwiftUI";
+			};
+			name = Release;
+		};
+		98F32A862C57BB4D007444C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF2PJAGCR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LongPressButtonAnimationSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LongPressButtonAnimationSwiftUI;
+			};
+			name = Debug;
+		};
+		98F32A872C57BB4D007444C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SF2PJAGCR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LongPressButtonAnimationSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LongPressButtonAnimationSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98F32A512C57BB4B007444C6 /* Build configuration list for PBXProject "LongPressButtonAnimationSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F32A7D2C57BB4D007444C6 /* Debug */,
+				98F32A7E2C57BB4D007444C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F32A7F2C57BB4D007444C6 /* Build configuration list for PBXNativeTarget "LongPressButtonAnimationSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F32A802C57BB4D007444C6 /* Debug */,
+				98F32A812C57BB4D007444C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F32A822C57BB4D007444C6 /* Build configuration list for PBXNativeTarget "LongPressButtonAnimationSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F32A832C57BB4D007444C6 /* Debug */,
+				98F32A842C57BB4D007444C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98F32A852C57BB4D007444C6 /* Build configuration list for PBXNativeTarget "LongPressButtonAnimationSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F32A862C57BB4D007444C6 /* Debug */,
+				98F32A872C57BB4D007444C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98F32A642C57BB4D007444C6 /* LongPressButtonAnimationSwiftUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98F32A652C57BB4D007444C6 /* LongPressButtonAnimationSwiftUI.xcdatamodel */,
+			);
+			currentVersion = 98F32A652C57BB4D007444C6 /* LongPressButtonAnimationSwiftUI.xcdatamodel */;
+			path = LongPressButtonAnimationSwiftUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 98F32A4E2C57BB4B007444C6 /* Project object */;
+}
